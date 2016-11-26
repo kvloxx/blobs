@@ -3,9 +3,9 @@ Quil sketch featuring Interactive soft bodies.  Inspired by thi.ng Verlet Physic
 
 ## Usage
 
-Build and run using lein run 
+Build and run using `lein run`
 
-Current controls--
+Current controls:
 
 Left or right-click and drag on edges of a body to interact.
 
