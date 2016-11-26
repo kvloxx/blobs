@@ -1,14 +1,19 @@
-# dynamic-test
-
-A Quil sketch designed to ... well, that part is up to you.
+# blobs
+Quil sketch featuring Interactive soft bodies.  Inspired by thi.ng Verlet Physics engine and adapted from [this demo](https://github.com/thi-ng/demos/blob/master/geom/src/physics_demos/strands.cljs)
 
 ## Usage
 
-LightTable - open `core.clj` and press `Ctrl+Shift+Enter` to evaluate the file.
+Build and run using lein run 
 
-Emacs - run cider, open `core.clj` and press `C-c C-k` to evaluate the file.
+Current controls--
 
-REPL - run `(require 'dynamic-test.core)`.
+Left or right-click and drag on edges of a body to interact.
+
+Middle-click near an edge to add a new particle to it.
+
+Spacebar to toggle particle view
+
+Left and right arrow keys to change how many particles are interpolated to draw edge curves.
 
 ## License
 
